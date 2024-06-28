@@ -1,0 +1,24 @@
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    h2{
+        font-size: 2rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    span{
+        font-size: 1.5rem;
+    }
+
+    button{
+        width: 48px;
+        height: 48px;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+}
