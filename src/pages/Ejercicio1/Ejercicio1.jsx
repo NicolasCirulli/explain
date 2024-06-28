@@ -1,13 +1,13 @@
 import "./ejercicio1.css";
 export const Ejercicio1 = () => {
-  const agregarNota = (value) => {
+  const agregarTarea = (value) => {
     console.log(value);
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
     const input = e.target[0];
-    agregarNota(input.value);
+    agregarTarea(input.value);
     input.value = "";
   };
   return (
